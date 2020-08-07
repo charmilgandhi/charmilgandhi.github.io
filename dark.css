@@ -17,14 +17,14 @@ html{
     --heading-color: #292922;
 }
 
-[data-theme="light"] {
+/*[data-theme="light"] {
     --primary-color: #FFA804;
     --secondary-color: #ffffed;
     --bg-color: linen;
     --font-color: #333;
     --f-color: #333;
     --heading-color: #818cab;
-}
+}*/
 
 
 body{ 
@@ -41,8 +41,6 @@ body{
     background-color: var(--bg-color) /* !important*/;
 }
 
-
-  
 h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, input, button { 
     margin: 0; 
     padding: 0; 
@@ -128,7 +126,7 @@ b.max-bold{ font-weight: 700; }
 
 /*Simple css to style it like a toggle switch*/
 
-.theme-switch {
+/*.theme-switch {
     display: inline-block;
     height: 30px;
     width: 60px;
@@ -177,7 +175,7 @@ input:checked + .slider:before {
 .slider.round:before {
     border-radius: 50%;
     background-color: #333;
-}
+}*/
 
 
 .wave {
@@ -314,20 +312,20 @@ input:checked + .slider:before {
     
 }*/
 
-/*.fa-sun-o {
+.fa-sun-o {
     color: black;
     
-}*/
+}
 
 .btn-dark {
     background-color: rgb(49, 54, 63) !important;
 }
 
-/*.fa-moon-o {
+.fa-moon-o {
     color: #ffa804;
     color: blanchedalmond;
     
-}*/
+}
 
 
 
