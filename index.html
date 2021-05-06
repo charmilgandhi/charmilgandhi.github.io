@@ -1,750 +1,941 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>This is CG</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<!--Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>This is CG</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-	<!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">-->
-    <!--<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+  <!-- FAVICONS -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-	<!-- Font -->
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-	<!-- Stylesheets -->
-	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <!-- VENDOR CSS FILES -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-
-	<link href="common-css/bootstrap.css" rel="stylesheet">
-
-	<link href="common-css/ionicons.css" rel="stylesheet">
-
-	<link href="common-css/fluidbox.min.css" rel="stylesheet">
-
-	<link id="mystylesheet" rel="stylesheet" type="text/css" href="dark.css">
-
-	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+  <!-- mAIN CSS FILE -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
+
 <body>
-
-	<nav class="navbar navbar-dark navbar-toggleable-sm fixed-top" style="background-color: #FFA804;">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
-                 <span class="navbar-toggler-icon">
-				 </span>
-			</button>
-
-            <a class="navbar-brand mr-auto" href="#"></a>
-            <div class="collapse navbar-collapse" id="Navbar">
-			<a href="#Navbar"><img src="images/logo_new.PNG" style="width: 100px; height: 30px; margin-left: 1%;"></a>
-            	<ul class="navbar-nav mr-auto" style="margin-left: 5%;">
-            		<li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-home"></span> Home</a></li>
-
-                	<li class="nav-item"><a class="nav-link" href="#myWork"><span class="fa fa-paint-brush"></span> My Hobbies</a></li>
-
-                	<li class="nav-item"><a class="nav-link" href="#aboutMe"><span class="fa fa-info"></span> About Me</a></li>
-
-                	<li class="nav-item"><a class="nav-link" href="#workExperience"><span class="fa fa-briefcase"></span> Work Experience</a></li>
-
-                	<li class="nav-item"><a class="nav-link" href="#education"><span class="fa fa-graduation-cap"></span> Education</a></li>
-
-					<li class="nav-item"><a class="nav-link" href="#certificate"><span class="fa fa-vcard"></span> Certifications</a></li>
-
-					<li class="nav-item"><a class="nav-link" href="#project"><span class="fa fa-tasks"></span> Projects</a></li>
-            	</ul>
-        	</div>
-
-			<div>
-				<a href="#" class="btn btn-sm animated-button thar-three" onclick="swapStyle('light.css')"><i class="fa fa-sun-o"></i></a>
-			</div>
-    		<div>
-				<a href="#" class="btn btn-sm animated-button thar-four" onclick="swapStyle('dark.css')"><i class="fa fa-moon-o"></i></a>
-			</div>
-
-		  	</label>
-        </div>
+  <div id="particles-js"></div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+  <!-- HEADER -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav class="nav-menu">
+      <ul>
+        <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services"><i class="bx bx-certification"></i> <span>Certifications</span></a></li>
+        <li><a href="#contact"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
     </nav>
-
-	<header>
-		<div class="container">
-			<div class="heading-wrapper">
-				<div class="row">
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-location-outline"></i>
-							<div class="right-area">
-                                <h5><b>65 Munjal Park Society</b></h5>
-                                <h5><b>Vadodara, Gujarat 390023</b></h5>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-telephone-outline"></i>
-							<div class="right-area">
-                                <h5><a href="tel:8511181908" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'"><b>+91 8511181908</b></a></h5>
-                                <h6><b>MON - FRI, 8AM - 7PM</b></h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-
-					<div class="col-sm-6 col-md-6 col-lg-4">
-						<div class="info">
-							<i class="icon ion-ios-chatboxes-outline"></i>
-							<div class="right-area">
-                                <h5><a href="mailto:charmilgandhi98@gmail.com" style="color:white;" onMouseOver="this.style.color='red'" onMouseOut="this.style.color='white'"> <b>charmilgandhi98@gmail.com</b></a></h5>
-                                <h6><b>REPLY IN 24 HOURS</b></h6>
-							</div><!-- right-area -->
-						</div><!-- info -->
-					</div><!-- col-sm-4 -->
-				</div><!-- row -->
-			</div><!-- heading-wrapper -->
-
-			<!--<a class="downlad-btn" href="#"><b>Download CV</b></a>-->
-			<div> <a href="pdfs/CV.pdf" class="btn btn-sm animated-button thar-two">Download CV</a> </div>
-		</div><!-- container -->
-	</header>
-	<div class='box'>
-		<div class='wave -one'></div>
-		<span class='wave -two'></span>
-		<span class='wave -three'></span>
-	  </div>
-	<section class="intro-section">
-			<h5 class="title-one"> It's Your </h1>
-			<h1 class="main-text" data-text="GLITCH ">GLITCH</h1>
-			<h5 class="title-two">That Makes You Great ...</h2>
-			<div class="row">
-				<div class="col-md-1 col-lg-2"></div>
-				<div class="col-md-10 col-lg-8">
-					<div class="intro">
-						<div class="profile-img">
-							<img class="image" src="images/profile.jfif" alt="">
-							<div class="middle">
-								<div class="text">C.G</div>
-							</div>
-						</div>
-
-						<h2 class="ml11">
-							<span class="text-wrapper">
-								<span class="line line1"></span>
-								<span class="letters">Charmil Gandhi</span>
-							  </span>
-						</h2>
-						<h4 class="font-yellow ml3">Learner / Developer</h4>
-						<ul class="information margin-tb-30 ml4">
-							<li><b>BORN : </b>October 5, 1998</li>
-							<li><b>EMAIL : </b><a href="mailto:charmilgandhi98@gmail.com"> charmilgandhi98@gmail.com</a></li>
-						</ul>
-						<ul class="social-icons">
-							<li><a href="https://wa.me/918511181908/?text=Hello..!!"><i class="ion-social-whatsapp" role="button" class="btn btn-block nav-link btn-warning"
-                        	data-toggle="tooltip" data-html="true"  title="Chat With Me on Whatsapp"
-                        	data-placement="bottom" href="#reserveform"></i></a></li>
-
-							<li><a href="https://www.linkedin.com/in/charmil-gandhi-b12783149/"><i class="ion-social-linkedin" role="button" class="btn btn-block nav-link btn-warning"
-                        	data-toggle="tooltip" data-html="true"  title="Visit My Linkedin Profile"
-                        	data-placement="bottom" href="#reserveform"></i></a></li>
-
-							<li><a href="https://www.instagram.com/charmil._.gandhi/"><i class="ion-social-instagram" role="button" class="btn btn-block nav-link btn-warning"
-                        	data-toggle="tooltip" data-html="true"  title="Visit My Instagram Profile"
-                        	data-placement="bottom" href="#reserveform"></i></a></li>
-
-							<li><a href="https://www.facebook.com/19pAiN98/"><i class="ion-social-facebook" role="button" class="btn btn-block nav-link btn-warning"
-                        	data-toggle="tooltip" data-html="true"  title="Visit My Facebook Profile"
-							data-placement="bottom" href="#reserveform"></i></a></li>
-
-							<li><a href="https://github.com/charmilgandhi"><i class="fa fa-github" role="button" class="btn btn-block nav-link btn-warning"
-							data-toggle="tooltip" data-html="true"  title="See My Projects on Github" data-placement="bottom" href="#reserveform"></i></a></li>
-						</ul>
-					</div><!-- intro -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-			<row>
-				<hr></hr>
-			</row>
-		</div><!-- container -->
-
-	</section><!-- intro-section -->
-
-	<section class="portfolio-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="myWork">
-
-						<span class="text-wrapper">
-							<span class="letters"><b>My Hobbies</b></span>
-							<span class="line"></span>
-						</span>
-						</h3>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="portfolioFilter clearfix margin-b-80">
-						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
-						<a href="#" data-filter=".web-design" class="web-design"><b>Photography</b></a>
-						<a href="#" data-filter=".branding" class="branding"><b>Sketches</b></a>
-					</div><!-- portfolioFilter -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
-		<div class="portfolioContainer">
-			<div class="p-item web-design">
-				<a href="images/photo12.jpg" data-fluidbox>
-					<img  src="Compressed_Images/photo12.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item branding graphic-design">
-				<a href="images/sketch5.jpg" data-fluidbox>
-					<img  src="Compressed_Images/sketch5.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo2.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo2.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item p-item-2 branding">
-				<a class="img" href="images/sketch1.jpg" data-fluidbox>
-					<img " src="images/sketch1.jpg" loading="lazy" alt=""></a>
-				<a class="img" href="images/sketch2.jpg"  data-fluidbox>
-					<img  src="images/sketch2.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo9.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo9.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item branding graphic-design">
-				<a href="images/sketch3.jpg" data-fluidbox>
-					<img  src="images/sketch3.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item graphic-design web-design">
-				<a href="images/photo7.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo7.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item  graphic-design branding">
-				<a href="images/sketch4.jpg" data-fluidbox>
-					<img  src="images/sketch4.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo5.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo5.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo6_new.webp" data-fluidbox>
-					<img  src="Compressed_Images/photo6_new.webp" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item branding">
-				<a href="images/sketch6.jpg" data-fluidbox>
-					<img  src="images/sketch6.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/me2.jpg" data-fluidbox>
-					<img  src="Compressed_Images/me2.jpg" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo7.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo7.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item web-design">
-				<a href="images/photo10.JPG" data-fluidbox>
-					<img  src="Compressed_Images/photo10.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-			<div class="p-item p-item-2 graphic-design web-design">
-				<a class="img" href="images/photo13.jpg" data-fluidbox>
-					<img  src="Compressed_Images/photo13.jpg" loading="lazy" alt=""></a>
-				<a class="img" href="images/photo15.jpg" data-fluidbox>
-					<img  src="Compressed_Images/photo15.jpg" alt="" loading="lazy"></a>
-			</div><!-- p-item -->
-
-
-
-			<div class="p-item web-design">
-				<a href="images/photo11.JPG" data-fluidbox>
-					<img src="Compressed_Images/photo11.JPG" loading="lazy" alt=""></a>
-			</div><!-- p-item -->
-
-		</div><!-- portfolioContainer -->
-
-	</section><!-- portfolio-section -->
-
-
-	<section class="about-section section">
-
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="aboutMe" style="color: #666;"><b>About me</b></h3>
-						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<p class="margin-b-50">I'm Charmil, a student at <a style="color:#FFA804" href="">School of Engineering & Applied Science</a>, <a href="" style="color:#FFA804">Ahmedabad University.</a> I am interested in Cyber Security and development fields using programming languages such as Python, JavaScript and its frameworks like NodeJS, ReactJS and React-Native. You can see my works and projects in Repositories section on <a style="color:#FFA804" href="https://github.com/19ChArMiL98"> Github</a>. <br><br>I have previously worked as a Web Developer in <a href="https://www.gsfclimited.com/" style="color: #FFA804;">Gujarat State Fertilizers & Chemicals ltd.</a> My skills in Programming include: <i style="color: #FFA804;"> C/C++ Programming </i>, <i style="color: #FFA804;">Problem Solving</i>, <i style="color: #FFA804;">C# & Game development in Unity 3D</i>, <i style="color: #FFA804;">Web development using HTML5, Cascading Stylesheets (CSS3), JavaScript, ReactJS</i> and <i style="color: #FFA804;">App development & UI using React-Native</i>.</p>
-
-					<div class="row">
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".97">
-									<div></div>
-									<h6 class="progress-title">HTML5 & CSS3</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-50">
-								<div class="radial-progress" data-prog-percent=".88">
-									<div></div>
-									<h6 class="progress-title">C & C++</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".73" style="color: #ffa804;">
-									<div></div>
-									<h6 class="progress-title">JAVA SCRIPT</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-50">
-								<div class="radial-progress" data-prog-percent=".69">
-									<div></div>
-									<h6 class="progress-title">REACT NATIVE</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-50">
-								<div class="radial-progress" data-prog-percent=".67">
-									<div></div>
-									<h6 class="progress-title">C# & UNITY 3D</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".63">
-									<div></div>
-									<h6 class="progress-title">PYTHON</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-						<div class="col-sm-6 col-md-6 col-lg-3">
-							<div class="radial-prog-area margin-b-30">
-								<div class="radial-progress" data-prog-percent=".80">
-									<div></div>
-									<h6 class="progress-title">UI/UX Design</h6>
-								</div>
-							</div><!-- radial-prog-area-->
-						</div><!-- col-sm-6-->
-					</div><!-- row -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-	</section><!-- about-section -->
-
-	<section class="experience-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="workExperience"><b>Work Experience</b></h3>
-						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-
-					<div class="experience margin-b-50">
-						<h4><b>INTERNSHIP AS WEB DEVELOPER</b></h4>
-						<h5 class="font-yellow"><b>Gujarat State Fertilizers & Chemicals ltd. (GSFC)</b></h5>
-						<h6 class="margin-t-10">15th May, 2019 - 15th July, 2019</h6>
-						<p class="font-semi-white margin-tb-30">I got the opportunity to learn about the workings of <a href="https://www.gsfclimited.com/"><b style="color: #FFA804;">Gujarat State Chemicals & Fertilizers ltd (GSFC)</b></a>, its product profiles, business processes of GSFC etc. I also came to know about SAP-System Application & Product in Data Planning, Its architecture, T-Codes, few modules of SAP implemented in GSFC and their working. I also learnt about web application and web designing using ASP.NET with C# and VB and also connecting it with the SQL Database. I was also given brief idea about networking in GSFC and learnt Networking Basics.</p>
-
-						<h8 class="font-semi-white">Mentioned below are the things I have worked on during this internsip period:</h8>
-						<ul class="list margin-b-30">
-							<li style="color: #FFA804;">Web Application and Web Page Design using ASP.NET and C#</li>
-							<li style="color: #FFA804;">SAP Basics and Its Various Modules</li>
-							<li style="color: #FFA804;">Network Basics</li>
-							<li style="color: #FFA804;">Exchange Server</li>
-						</ul>
-
-						<h7>Find My Internship Report Here: <a href="pdfs/Training_Report.pdf" class="course" style="color: #FFA804;">&ensp; Internship Report</a></h7>
-					</div><!-- experience -->
-
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
-	</section><!-- experience-section -->
-
-	<section class="education-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="education" style="color: #666";><b>Education</b></h3>
-						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="education-wrapper">
-						<div class="education margin-b-50">
-							<h5 style="color:#666"><b>SECONDARY SCHOOL CERTIFICATE (SSC)</b></h5>
-							<h4 class="font-yellow"><b>The Mother's School</b></h4>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN 2015</h6>
-							<p class="margin-tb-30">I have done my pre-primary, primary and secondary education i.e from Kindergarten to 10th standard in <a href=""><b style="color:#FFA804">The Mother's School</b></a> located in the city of Vadodara. I have achieved <b style="color: #FFA804;">90%</b> result in the <b style="color: #FFA804;">SSC Board Exam</b> held in 10th standard. Some of my scholastic achievements are mentioned below:<br>
-								<ul>
-									<b class="font-yellow">Intra School Drawing Competition:</b> <i class="font-lite-black">1st Position (2009, 2011), 2nd Position (2010), 3rd Position (2013)</i></br>
-									<b class="font-yellow">Intra School Elocution Competion:</b><i class="font-lite-black"> 1st Position (2012), 2nd Position (2013)</i></br>
-									<b class="font-yellow">Intra School 100m Running Competition:</b><i class="font-lite-black"> 1st Position (2014), 3rd Position (2013)</i><br>
-									<b class="font-yellow">Intra School Football: </b><i class="font-lite-black"> 2014</i><br>
-									<b class="font-yellow">LIC - Student Of The Year Award:</b><i class="font-lite-black"> 2015</i>
-								</ul>
-							</p>
-						</div><!-- education -->
-
-						<div class="education margin-b-50">
-							<h5 style="color:#666"><b>HIGHER SECONDARY SCHOOL CERTIFICATE (HSC)</b></h5>
-							<h4 class="font-yellow"><a href="http://www.parthschool.org/" class="course"><b>Parth School of Science & Competition</b></a></h4>
-							<h6 class="font-lite-black margin-t-10">GRADUATED IN 2017</h6>
-							<p class="margin-tb-30">I have done my higher secondary schooling in Science stream from <b style="color: #FFA804;"><a href="http://www.parthschool.org/">Parth School of Science & Competition</a></b> located in city of Vadodara. <i>(11th and 12th Standard)</i> I have achieved <b style="color: #FFA804;">97%</b> in the first semester and thus securing the 3rd Rank in School. My average of all 4 semesters in 11th and 12th standard is <b style="color:#FFA804">90%</b> and securing a place in top ten students in School.</p>
-						</div><!-- education -->
-
-						<div class="education margin-b-50">
-							<h5 style="color:#666"><b>B.TECH ENGINEERING</b></h5>
-							<h4 class="font-yellow"><a href="https://ahduni.edu.in/seas/" class="course"><b>School of Engineering & Applied Science (SEAS)</b></a></h4>
-							<h6 class="font-lite-black margin-t-10">GRADUATING IN 2021</h6>
-							<p class="margin-tb-30">I am persuinig my B.Tech in Information and Communication Technology in <b style="color: #FFA804;">School of Engineering & Applied Science (SEAS)</b> in Ahmedabad. I am currently in 7th Semester my CGPA of 6 semesters is <b style="color: #FFA804;">3.1 (out of 4 scale)</b>.
-							Me and my team were 2nd Runners Up in <i style="color: #FFA804;">48 hours Hackathon</i> of <b style="color: #FFA804;"> Ingenium Tech Fest</b> of our College inwhich teams from ours as well as other colleges participated. You can see my works and projects in Repositories section on <a style="color:#FFA804" href="https://github.com/19ChArMiL98"><b> Github</b></a> and can visit my <a href="https://www.researchgate.net/profile/Charmil_Gandhi"><b style="color: #FFA804;"> ResearchGate</b></a> profile.</p>
-						</div><!-- education -->
-					</div><!-- education-wrapper -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
-	</section><!-- about-section -->
-
-	<section class="certificate-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="certificate"style="color:#666"><b>Certifications</b></h3>
-						<!--h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6-->
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8 row">
-					<div class="education-wrapper column" style="margin-right: 70px; margin-left: 8px;">
-						<div class="education margin-b-10">
-							<h4 style="color:#666"><b>Johns Hopkins University</b></h4>
-							<h6 class="font-yellow"><a class="course" href="pdfs/HTMLCSS.pdf"><b>HTML, CSS, and Javascript for Web Developers</b></a></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN MAY 2020</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-
-						<div class="education margin-b-10">
-							<h4 style="color:#666"><b>University of London and Goldsmiths</b></h4>
-							<h6 class="font-yellow"><a class="course" href="pdfs/ResponsiveWebsite.pdf"><b>Responsive Website</b></a></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN MAY 2020</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-
-						<div class="education margin-b-10">
-							<h4 style="color:#666"><b>Google</b></h4>
-							<h6 class="font-yellow"><a class="course" href="pdfs/ITsecurity.pdf"><b>IT Security: Defense against the digital dark arts</b></a></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN MAY 2020</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-					</div><!-- education-wrapper -->
-
-					<div class="education-wrapper column " style="margin-left: 8px;">
-						<div class="education margin-b-10">
-							<h4 style="color:#666"><b>Johns Hopkins University</b></h4>
-							<h6 class="font-yellow"><a class="course" href="pdfs/FrontEndWebUI.pdf"><b>Front-End UI Frameworks: Bootstrap4</b></a></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN MAY 2020</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-
-						<div class="education margin-b">
-							<h4 style="color:#666"><b>STAR Certifications</b></h4>
-							<h6 class="font-yellow"><b>C++ Programming</b></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN 2017</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-
-						<div class="education margin-b-50">
-							<h4 style="color:#666"><b>STAR Certifications</b></h4>
-							<h6 class="font-yellow"><b>Cyber Secure User</b></h6>
-							<h7 class="font-lite-black margin-t-10">COMPLETED IN 2017</h7>
-							<p class="margin-tb-30">
-
-							</p>
-						</div><!-- education -->
-					</div><!-- education-wrapper -->
-
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
-	</section><!-- about-section -->
-
-
-
-	<section class="education-section section">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="heading">
-						<h3 id="project" style="color: #666";><b>Projects</b></h3>
-					</div>
-				</div><!-- col-sm-4 -->
-				<div class="col-sm-8">
-					<div class="education-wrapper">
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Hard-fusion based spectrum sensing over Rayleigh fading channel and SSDF attack detection
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Hard-fusion-based-spectrum-sensing-over-Rayleigh-fading-channel-and-SSDF-attack-detection.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Process Scheduling Simulator with GUI
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Process_Scheduling_Simulator.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Hospital Management System with GUI
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Hospital-Management-System.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Landslide Susceptibility Assessment by Novel Hybrid Machine Learning Algorithm
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Landslide-Susceptibility-Assessment-by-Novel-Hybrid-Machine-Learning-Algorithms.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>ToDo List Mobile App using React-Native
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/ToDoApp.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Feed the Animals Game using UNITY-3D Game Engine
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Game-Feed-The-Animals.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-						<div class="education margin-b-30">
-							<h5 style="color:#666"><b>Control Car and Dodge Obstacles Game using UNITY-3D Game Engine
-							</b></h5>
-							<a class="course" href="https://github.com/19ChArMiL98/Control-Car-and-Dodge-Obstacles.git"><b style="color: #FFA804;">Click Me To Find Project</b></a>
-						</div><!-- education -->
-
-					</div><!-- education-wrapper -->
-				</div><!-- col-sm-8 -->
-			</div><!-- row -->
-		</div><!-- container -->
-
-	</section><!-- about-section -->
-
-	<section class="counter-section" id="counter">
-
-		<div class="container">
-			<h3 class="margin-b-30" style="align-content: center;"><b>ResearchGate Profile Stats</b></h3>
-			<div class="row">
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="400" data-count="2">0</span></b></h1>
-						<h5 class="desc"><b>Articles</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="1400" data-count="218">0</span></b></h1>
-						<h5 class="desc"><b>Reads</b></h5>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="700" data-count="11">0</span></b></h1>
-						<h6 class="desc"><b>Times Recommended</b></h6>
-					</div><!-- counter -->
-				</div><!-- col-md-3-->
-
-				<div class="col-sm-6 col-md-6 col-lg-3">
-					<div class="counter margin-b-30">
-						<h1 class="title"><b><span class="counter-value" data-duration="2000" data-count="11.6">0</span></b></h1>
-						<h6 class="desc"><b>Total Research interests</b></h6>
-					</div><!-- margin-b-30 -->
-				</div><!-- col-md-3-->
-
-			</div><!-- row-->
-		</div><!-- container-->
-	</section><!-- counter-section-->
-
-	<!-- SCIPTS -->
-
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-
-	<script src="common-js/jquery-3.2.1.min.js"></script>
-
-	<script src="common-js/tether.min.js"></script>
-
-	<script src="common-js/bootstrap.js"></script>
-
-	<script src="common-js/isotope.pkgd.min.js"></script>
-
-	<script src="common-js/jquery.waypoints.min.js"></script>
-
-	<script src="common-js/progressbar.min.js"></script>
-
-	<script src="common-js/jquery.fluidbox.min.js"></script>
-
-	<script src="common-js/scripts.js"></script>
-
-	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-	<script>
-		const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-
-		function switchTheme(e) {
-    		if (e.target.checked) {
-        		document.documentElement.setAttribute('data-theme', 'light');
-
-    		}
-    		else {
-        		document.documentElement.setAttribute('data-theme', 'dark');
-
-    		}
-		}
-		toggleSwitch.addEventListener('change', switchTheme, false);
-	</script>
-
-	<script>
-		var textWrapper = document.querySelector('.ml11 .letters');
-		textWrapper.innerHTML = textWrapper.textContent.replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>");
-
-		anime.timeline({loop: false})
-		.add({
-			targets: '.ml11 .line',
-			scaleY: [0,1],
-			opacity: [0.5,1],
-			easing: "easeOutExpo",
-			duration: 700
-		})
-		.add({
-			targets: '.ml11 .line',
-			translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
-			easing: "easeOutExpo",
-			duration: 700,
-			delay: 100
-		})
-		.add({
-			targets: '.ml11 .letter',
-			opacity: [0,1],
-			easing: "easeOutExpo",
-			duration: 600,
-			offset: '-=775',
-			delay: (el, i) => 34 * (i+1)
-		})
-		.add({
-			targets: '.ml11 .line',
-			opacity: 0,
-			duration: 1000,
-			easing: "easeOutExpo",
-			delay: 1000
-		});
-	</script>
-
-	<script>
-		var textWrapper = document.querySelector('.ml3');
-		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-		anime.timeline({loop: false})
-		.add({
-			targets: '.ml3 .letter',
-			opacity: [0,1],
-			easing: "easeInOutQuad",
-			duration: 2250,
-			delay: (el, i) => 150 * (i+1)
-		})
-	</script>
-
-
-	<script>
-		var textWrapper = document.querySelector('.ml3');
-		textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-		anime.timeline({loop: false})
-		.add({
-			targets: '.ml3 .letter',
-			opacity: [0,1],
-			easing: "easeInOutQuad",
-			duration: 2250,
-			delay: (el, i) => 150 * (i+1)
-		})
-	</script>
-
-	<script type="text/javascript">
-		var setTheme = localStorage.getItem('theme')
-		console.log('theme:', setTheme)
-
-		if (setTheme == null){
-			swapStyle('light.css')
-		}else{
-			swapStyle(setTheme)
-		}
-
-		function swapStyle(sheet){
-			document.getElementById('mystylesheet').href = sheet
-			localStorage.setItem('theme', sheet)
-		}
-	</script>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Charmil Gandhi</h1>
+      <p>I'm <span class="typed" data-typed-items="Designer, Developer, Photographer"></span></p>
+      <div class="social-links">
+        <a href="https://github.com/charmilgandhi" class="twitter" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.facebook.com/19pAiN98/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/charmil._.gandhi/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=918511181908&text=Hello..%21%21&app_absent=0" class="google-plus" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/charmil-gandhi-b12783149/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <!--<h4><strong>Hello There! This is Charmil .. </strong></h4>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile.jpg" class="img-fluid" alt="" style="border-radius: 20px;">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>UI/UX Designer &amp; Web Developer.</h3>
+            <!--<p class="font-italic">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>-->
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 5 October 1998</li>
+                  <!--<li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>-->
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> <a href="tel:+918511181908"> +91-8511181908</a></li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Vadodara, Gujarat</li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 21</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Bachelor Of Technology</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong><a href="mailto:charmilgandhi98@gmail.com" target="_blank"> charmilgandhi98@gmail.com</a></li>
+                  <!--<li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>-->
+                </ul>
+              </div>
+            </div>
+            <p>
+              I'm Charmil, a student at School of Engineering & Applied Science, Ahmedabad University. I am interested in Cyber Security and development fields using programming languages such as Python, JavaScript and its frameworks like NodeJS, ReactJS and React-Native. You can see my works and projects in Repositories section on Github.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FACTS SECTION -->
+    <!--<section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Facts</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="icofont-simple-smile"></i>
+              <span data-toggle="counter-up">232</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="icofont-document-folder"></i>
+              <span data-toggle="counter-up">521</span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-live-support"></i>
+              <span data-toggle="counter-up">1,463</span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="icofont-users-alt-5"></i>
+              <span data-toggle="counter-up">15</span>
+              <p>Hard Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <!--<p>My skills in Programming include: C/C++ Programming , Problem Solving, C# & Game development in Unity 3D, Web development using HTML5, Cascading Stylesheets (CSS3), JavaScript, ReactJS and App development & UI using React-Native.</p>-->
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C/C++ <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">React Native <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">UI/UX Design <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Blender <i class="val">40%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item pb-0">
+              <h4>Secondary School Certificate (SSC)</h4>
+              <h5>2014 - 2015</h5>
+              <p><em>The Mother's School, Gotri, Vadodara</em></p>
+              <p>I have done my pre-primary, primary and secondary education i.e from Kindergarten to 10th standard in The Mother's School located in the city of Vadodara. I have achieved 90% result in the SSC Board Exam held in 10th standard.</p>
+              <ul>
+                <li><strong>Result:</strong> 90%</li>
+              </ul>
+            </div>
+
+            <!--<h3 class="resume-title">Education</h3>-->
+            <div class="resume-item">
+              <h4>HIGHER SECONDARY SCHOOL CERTIFICATE (HSC)</h4>
+              <h5>2015 - 2017</h5>
+              <p><em>Parth School of Science & Competition (PSSC), Vadodara</em></p>
+              <p>I have done my higher secondary schooling in Science stream from <a href="http://www.parthschool.org/" target="_blank">Parth School of Science & Competition</a> located in city of Vadodara. (11th and 12th Standard) I have achieved 97% in the first semester and thus securing the 3rd Rank in School.</p>
+              <ul>
+                <li><strong>Result(4 Semesters):</strong> 90%</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Bachelor of Technology (B.Tech)</h4>
+              <h5>2017 - 2021</h5>
+              <p><em>School of Engineering and Applied Science, Ahmedabad University, Ahmedabad</em></p>
+              <p>I am persuinig my B.Tech in Information and Communication Technology in <a href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/" target="_blank">School of Engineering & Applied Science (SEAS)</a> in Ahmedabad. I am currently in 7th Semester my CGPA of 6 semesters is 3.1 (out of 4 scale). You can see my works and projects in Repositories section on <a href="https://github.com/charmilgandhi?tab=repositories">Github</a> and can visit my <a href="https://www.researchgate.net/profile/Charmil-Gandhi">ResearchGate profile.</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Internship as Web Developer</h4>
+              <h5>May, 2019 - July, 2019</h5>
+              <p><em>Gujarat State Fertilizers & Chemicals ltd., Vadodara</em></p>
+              <p>I got the opportunity to learn about the workings of <a href="https://www.gsfclimited.com/">Gujarat State Chemicals & Fertilizers ltd (GSFC)</a>, its product profiles, business processes of GSFC etc.</p>
+              <ul>
+                <li>Web Application and Web Page Design using ASP.NET and C#</li>
+                <li>SAP Basics and Its Various Modules </li>
+                <li>Network Basics</li>
+                <li>Exchange Server</li>
+              </ul>
+              <p>Find My Internship Report Here: <a href="pdfs\Training_Report.pdf" target="_blank">Internship Report</a></p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Internship as UI/UX Designer</h4>
+              <h5>November, 2020 - February, 2021</h5>
+              <p><em>Ask In City (AIC), Uttar Pradesh</em></p>
+              <p>I got the opportunity to be UI/UX Designer intern at Ask In City(AIC), Uttar Pradesh. This was a work-from-home internship where I had to design various screens for a general purpose mobile application. This application had all the features frequently used by the user such as news, maps, whatsapp, messages, market updates etc. </p>
+              <ul>
+                <li><strong>Tool used:</strong> Figma and Sketch</li>
+                <li><a href="#"><i class="bx bx-link-alt"></i> Link To See Illustrations</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKS SECTION -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-card">Sketches</li>
+              <li data-filter=".filter-app">Photography</li>
+              <!--<li data-filter=".filter-web">Web</li>-->
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo15.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Broken House</h4>
+                <p><i class="icofont-google-map"></i> Vadodara, Gujarat</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo15.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Parrot In The Cage</h4>
+                <p><i class="icofont-google-map"></i> Jurong Bird Park, Singapore</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo4.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo13.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Remains Of British Empire</h4>
+                <p><i class="icofont-google-map"></i> Ross Island, Andaman & Nicobar Islands</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo13.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sun Rise By Beach</h4>
+                <p><i class="icofont-google-map"></i> Havlock Islands, Andaman & Nicobar Islands</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo10.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Shackles Of Memories</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/BrPwwxJBPzj/?utm_source=ig_web_copy_link" target="_blank" data-gall="portfolioDetailsGallery"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo6_new.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The White Macaw</h4>
+                <p><i class="icofont-google-map"></i> Jurong Bird Park, Singapore</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo6_new.webp" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="#" target="_blank" data-gall="portfolioDetailsGallery"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Messi - The G.O.A.T</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/B6EFXeQlvUJ/?utm_source=ig_web_copy_link" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo13.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo13.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>The Inevitable GoodBye</h4>
+
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch3.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/BVSaShUHkZN/?utm_source=ig_web_copy_link" target="_blank" data-gall="portfolioDetailsGallery"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>A Mother's Love</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch5.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/BHW917KBc7B/?utm_source=ig_web_copy_link" target="_blank" data-gall="portfolioDetailsGallery"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Chester Benington</h4>
+
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch1.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/BW0iwbfnCRJ/?utm_source=ig_web_copy_link" data-gall="portfolioDetailsGallery" target="_blank"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/photo12.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Twilight</h4>
+                <p><i class="icofont-google-map"></i> Neil Island, Andaman & Nicobar Islands</p></p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/photo12.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-zoom-in"></i></a>
+                  <!--<a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/sketch2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>I'm Alive</h4>
+
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/sketch2.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-zoom-in"></i></a>
+                  <a href="https://www.instagram.com/p/Ba3_omKnyBZ/?utm_source=ig_web_copy_link" data-gall="portfolioDetailsGallery" target="_blank"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Certifications</h2>
+          <!--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bx bxl-google"></i>
+              </div>
+              <h4><a href="assets/img/certificates/itsec.png" class="venobox">Google</a></h4>
+              <h6><a href="assets/img/certificates/itsec.png" style="color: #000;" class="venobox">IT Security : Defense Against The Digital Dark Arts</a></h6>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bx bx-arch"></i>
+              </div>
+              <h4><a href="assets/img/certificates/jh.png" class="venobox">Johns Hopkins University</a></h4>
+              <h6><a href="assets/img/certificates/jh.png" style="color: #000;" class="venobox">HTML, CSS, and Javascript for Web Developers</a></h6>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bx bx-buildings"></i>
+              </div>
+              <h4><a href="assets/img/certificates/london.png" class="venobox">University of London and Goldsmiths</a></h4>
+              <h6><a href="assets/img/certificates/london.png" style="color: #000;" class="venobox">Responsive Website Basics: Code with HTML, CSS, and JavaScript</a></h6>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bx bx-building"></i>
+              </div>
+              <h4><a href="assets/img/certificates/hk.png"  class="venobox">Hong Kong University Of Science and Technology</a></h4>
+              <h6><a href="assets/img/certificates/hk.png" style="color: #000;" class="venobox">Front-End Web UI Frameworks and Tools: Bootstrap 4 </a></h6>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4><a href="#" class="venobox">Star Certification - Professional Certificate</a></h4>
+              <h6><a href="assets/img/certificates/c++.jpg" class="venobox" style="color: #000;">Star Certified C++ Programming</a></h6>
+              <h6><a href="assets/img/certificates/CSU.jpg" class="venobox" style="color: #000;">Star Certified Cyber Secure User</a></h6>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300" data-toggle="tooltip" data-placement="bottom" title="Click To View The Certificate">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bx bx-star"></i>
+              </div>
+              <h4><a href="assets/img/certificates/ezenith.jpg" class="venobox">Ezenith Education - Independent Study Period</a></h4>
+              <h6><a href="assets/img/certificates/ezenith.jpg" class="venobox" style="color: #000;"> Drone Development Training</a></h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <!--<section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Testimonials</h2>
+        </div>
+        <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Saul Goodman</h3>
+            <h4>Ceo &amp; Founder</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Designer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+
+          <div class="testimonial-item">
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>John Larson</h3>
+            <h4>Entrepreneur</h4>
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Location:</h4>
+                <p>65 Munjal Park Society,<br>
+                  Vadodara, Gujarat - 390023</p>
+              </div>
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:charmilgandhi98@gmail.com" target="_blank">charmilgandhi98@gmail.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p><a href="tel:+918511181908">+91-8511181908</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <!--<form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+
+              <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>-->
+            <!--<div class="col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.6773157777376!2d73.14206082916438!3d22.326832699081862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9f6dab29d6b%3A0x8f2a006f842e9533!2sC-5%2C%20Jalaramdam%20Tenament%2C%20near%20Munjal%20Park%2C%20Ambedkar%20Nagar%20Housing%20Society%2C%20Laxmipura%2C%20Subhanpura%2C%20Vadodara%2C%20Gujarat%20390023!5e0!3m2!1sen!2sin!4v1620150759799!5m2!1sen!2sin" width="400" height="300" style="border-width: medium; border-color: #0563bb; border-radius: 20px;" allowfullscreen="" loading="lazy"></iframe>
+          </div>-->
+            <div class="map-responsive">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d922.6773157777376!2d73.14206082916438!3d22.326832699081862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc9f6dab29d6b%3A0x8f2a006f842e9533!2sC-5%2C%20Jalaramdam%20Tenament%2C%20near%20Munjal%20Park%2C%20Ambedkar%20Nagar%20Housing%20Society%2C%20Laxmipura%2C%20Subhanpura%2C%20Vadodara%2C%20Gujarat%20390023!5e0!3m2!1sen!2sin!4v1620150759799!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Charmil Gandhi</h3>
+      <h6>Developer | Designer | Photographer</h6><br>
+      <div class="social-links">
+        <a href="https://github.com/charmilgandhi" class="twitter" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.facebook.com/19pAiN98/" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/charmil._.gandhi/" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=918511181908&text=Hello..%21%21&app_absent=0" class="google-plus" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/charmil-gandhi-b12783149/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+
+      <div class="copyright">
+        &copy; Copyright <strong><span>This is CG</span></strong>. All Rights Reserved
+      </div>
+
+      <div class="credits">
+        Designed by <a href="#">Charmil Gandhi</a>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+  <div id="preloader"></div>
+  <div id="particles-js"></div>
+
+  <!-- VENDOR JS FILES -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- MAIN JS FILE -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+particlesJS('particles-js',
+
+  {
+    "particles": {
+      "number": {
+        "value": 20,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#0536bb"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.5,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 5,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 20,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#0563bb",
+        "opacity": 0.4,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "repulse"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true,
+    "config_demo": {
+      "hide_card": false,
+      "background_color": "#b61924",
+      "background_image": "",
+      "background_position": "50% 50%",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    }
+  }
+
+);
+  </script>
+
+  <script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
 </body>
 </html>
