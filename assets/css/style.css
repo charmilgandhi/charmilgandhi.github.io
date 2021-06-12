@@ -53,7 +53,10 @@ body {
     left: 0
 }
 
-
+.spotify {
+  padding-top: 30px;
+  border-radius: 50%;
+}
 
 a {
   color: var(--link-color);
