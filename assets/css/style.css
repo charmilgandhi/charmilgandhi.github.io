@@ -13,20 +13,6 @@
     --resume-color : #f7f8f9;
 }
 
-[data-theme="dark"] {
-  --body-color: #272829;
-  --link-color: #0563bb;
-  --link-hover-color: #067ded;
-  --back-to-top-color: #fff;
-  --back-to-top-hover-color: #0678e3;
-  --nav-color : #45505b;
-  --border-right-color : #e6e9ec;
-  --background-color : #f2f3f5;
-  --section-background-color : #ddd;
-  --content-color : #728394;
-  --facts-color : #011426;
-  --resume-color : #f7f8f9;
-}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -74,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  right: 15px;
+  right: 32px;
   bottom: 15px;
   background: var(--link-color);
   color: var(--back-to-top-color);
@@ -1227,3 +1213,62 @@ section {
     width:100%;
     position:absolute;
 }
+
+
+/*.toggle {
+  grid-area: btn;
+  place-self: center;
+  position: relative;
+  width: 35px;
+  height: 35px;
+}
+.toggle input[type=checkbox] {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.toggle input[type=checkbox]:checked + label {
+  background: #363030;
+  animation: rotate 400ms var(--trans-time-func);
+  animation-delay: 250ms;
+}
+.toggle input[type=checkbox]:checked + label::after {
+  background: var(--container-bg);
+  transform: translate(35%, -30%);
+  opacity: 1;
+}
+.toggle label.toggle-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 250ms var(--trans-time-func);
+  background: #dfd118;
+  overflow: hidden;
+}
+.toggle label.toggle-btn::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  background: var(--container-bg);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transform: translate(72%, -72%);
+  transition: all 250ms var(--trans-time-func);
+  opacity: 0;
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}*/

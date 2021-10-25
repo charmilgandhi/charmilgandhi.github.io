@@ -21,6 +21,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "css-doodle": "^0.8.5"
+    "css-doodle": "^0.8.5",
+    "darkmode-js": "^1.5.7"
   }
 }
